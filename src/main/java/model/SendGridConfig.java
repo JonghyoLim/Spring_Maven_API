@@ -18,7 +18,7 @@ import com.sendgrid.SendGrid;
 @Configuration
 public class SendGridConfig {
 
-   private String appKey = "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";
+   private String appKey = "";
    
    @Bean
    public SendGrid getSendGrid(){
